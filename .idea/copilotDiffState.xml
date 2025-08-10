@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjLoader.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjLoader.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjModel.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjModel.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjModelManager.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjModelManager.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjRenderer.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/java/dev/flwn/model/ObjRenderer.java" />
+              <option name="originalContent" value="&#10;" />
+              <option name="updatedContent" value="&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/mars.mtl">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/mars.mtl" />
+              <option name="originalContent" value="# Blender MTL File: 'maxwell.blend'&#10;# Material Count: 2&#10;&#10;newmtl maxwell&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/mars&#10;&#10;newmtl whiskers&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/whiskers&#10;" />
+              <option name="updatedContent" value="# Blender MTL File: 'maxwell.blend'&#13;&#10;# Material Count: 2&#13;&#10;&#13;&#10;newmtl maxwell&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd maxwell&#13;&#10;&#13;&#10;newmtl whiskers&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd whiskers" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/poomba.mtl">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/poomba.mtl" />
+              <option name="originalContent" value="# Blender MTL File: 'maxwell.blend'&#10;# Material Count: 2&#10;&#10;newmtl maxwell&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/poomba&#10;&#10;newmtl whiskers&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/whiskers&#10;" />
+              <option name="updatedContent" value="# Blender MTL File: 'maxwell.blend'&#13;&#10;# Material Count: 2&#13;&#10;&#13;&#10;newmtl maxwell&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd maxwell&#13;&#10;&#13;&#10;newmtl whiskers&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd whiskers" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/valenok.mtl">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/valenok.mtl" />
+              <option name="originalContent" value="# Blender MTL File: 'maxwell.blend'&#10;# Material Count: 2&#10;&#10;newmtl maxwell&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/valenok&#10;&#10;newmtl whiskers&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/whiskers&#10;" />
+              <option name="updatedContent" value="# Blender MTL File: 'maxwell.blend'&#13;&#10;# Material Count: 2&#13;&#10;&#13;&#10;newmtl maxwell&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd maxwell&#13;&#10;&#13;&#10;newmtl whiskers&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd whiskers" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/vasilisa.mtl">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/common/src/main/resources/assets/placeablemaxwell/models/block/vasilisa.mtl" />
+              <option name="originalContent" value="# Blender MTL File: 'maxwell.blend'&#10;# Material Count: 2&#10;&#10;newmtl maxwell&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/vasilisa&#10;&#10;newmtl whiskers&#10;Ns 32.000008&#10;Ka 1.000000 1.000000 1.000000&#10;Kd 0.800000 0.800000 0.800000&#10;Ks 0.000000 0.000000 0.000000&#10;Ke 0.000000 0.000000 0.000000&#10;Ni 1.500000&#10;d 1.000000&#10;illum 1&#10;map_Kd placeablemaxwell:block/whiskers&#10;" />
+              <option name="updatedContent" value="# Blender MTL File: 'maxwell.blend'&#13;&#10;# Material Count: 2&#13;&#10;&#13;&#10;newmtl maxwell&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd maxwell&#13;&#10;&#13;&#10;newmtl whiskers&#13;&#10;Ns 32.000008&#13;&#10;Ka 1.000000 1.000000 1.000000&#13;&#10;Kd 0.800000 0.800000 0.800000&#13;&#10;Ks 0.000000 0.000000 0.000000&#13;&#10;Ke 0.000000 0.000000 0.000000&#13;&#10;Ni 1.500000&#13;&#10;d 1.000000&#13;&#10;illum 1&#13;&#10;map_Kd whiskers" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/fabric/src/main/java/dev/flwn/fabric/client/ObjResourceReloadListener.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/fabric/src/main/java/dev/flwn/fabric/client/ObjResourceReloadListener.java" />
+              <option name="originalContent" value="&#10;&#10;" />
+              <option name="updatedContent" value="&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/fabric/src/main/java/dev/flwn/fabric/client/renderer/ObjRenderHelper.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/fabric/src/main/java/dev/flwn/fabric/client/renderer/ObjRenderHelper.java" />
+              <option name="originalContent" value="&#10;" />
+              <option name="updatedContent" value="&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

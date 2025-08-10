@@ -3,15 +3,14 @@
   "id": "placeablemaxwell",
   "version": "${version}",
   "name": "Maxwell the placeable cat",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Adds Maxwell the placeable cat.",
   "authors": [
-    "Me!"
+    "Flowyan"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/antoninvf/placeableMaxwell"
   },
-  "license": "CC0-1.0",
+  "license": "CC BY 4.0",
   "icon": "assets/placeablemaxwell/icon.png",
   "environment": "*",
   "entrypoints": {

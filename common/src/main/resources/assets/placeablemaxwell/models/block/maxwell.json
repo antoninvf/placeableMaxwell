@@ -1,5 +1,5 @@
 {
-  "loader": "forge:obj",
+  "loader": "neoforge:obj",
   "flip_v": false,
   "model": "placeablemaxwell:models/block/maxwell.obj",
   "textures": {

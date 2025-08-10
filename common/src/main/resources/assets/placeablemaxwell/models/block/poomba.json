@@ -1,11 +1,11 @@
 {
-  "loader": "forge:obj",
+  "loader": "neoforge:obj",
   "flip_v": false,
-  "model": "placeablemaxwell:models/block/poomba.obj",
+  "model": "placeablemaxwell:models/block/maxwell.obj",
   "textures": {
     "maxwell": "placeablemaxwell:block/poomba",
     "whiskers": "placeablemaxwell:block/whiskers",
-    "particle": "minecraft:block/black_wool"
+    "particle": "minecraft:block/brown_wool"
   },
   "render_type": "cutout",
   "display": {

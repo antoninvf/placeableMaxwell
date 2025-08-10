@@ -1,7 +1,7 @@
 {
-  "loader": "forge:obj",
+  "loader": "neoforge:obj",
   "flip_v": false,
-  "model": "placeablemaxwell:models/block/valenok.obj",
+  "model": "placeablemaxwell:models/block/maxwell.obj",
   "textures": {
     "maxwell": "placeablemaxwell:block/valenok",
     "whiskers": "placeablemaxwell:block/whiskers",

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    "BRB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:black_wool",
+    "R": "minecraft:brown_wool"
+  },
+  "result": {
+    "id": "placeablemaxwell:poomba",
+    "count": 1
+  }
+}

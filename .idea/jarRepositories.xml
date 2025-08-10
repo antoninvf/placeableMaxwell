@@ -61,5 +61,15 @@
       <option name="name" value="NeoForged" />
       <option name="url" value="https://maven.neoforged.net/releases" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="ParchmentMC" />
+      <option name="name" value="ParchmentMC" />
+      <option name="url" value="https://maven.parchmentmc.org/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FelNull Maven" />
+      <option name="name" value="FelNull Maven" />
+      <option name="url" value="https://maven.felnull.dev" />
+    </remote-repository>
   </component>
 </project>
