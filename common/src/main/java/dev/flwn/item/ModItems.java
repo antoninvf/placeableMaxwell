@@ -8,7 +8,6 @@ import dev.flwn.MaxwellMod;
 import dev.flwn.block.ModBlocks;
 import dev.flwn.tabs.ModTabs;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -35,7 +34,7 @@ public class ModItems {
     }
 
     public static RegistrySupplier<Item> registerItem(String name, Supplier<Item> item) {
-        return ITEMS.register(new ResourceLocation(MaxwellMod.MOD_ID, name), item);
+        return ITEMS.register(name, item);
     }
 
     public static Item.Properties baseCatProperties(String name) {

@@ -1,6 +1,6 @@
 modLoader = "javafml"
-loaderVersion = "[3,)"
-issueTrackerURL = "https://github.com/antoninvf/placeableMaxwell/issues"
+loaderVersion = "[49,)"
+#issueTrackerURL = ""
 license = "CC BY 4.0"
 
 [[mods]]
@@ -14,25 +14,22 @@ Adds Maxwell the placeable cat.
 logoFile = "maxwell.png"
 
 [[dependencies.placeablemaxwell]]
-modId = "neoforge"
-type = "required"
-versionRange = "[20.6,)"
+modId = "forge"
+mandatory = true
+versionRange = "[49,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.placeablemaxwell]]
 modId = "minecraft"
-type = "required"
-versionRange = "[1.20.6,)"
+mandatory = true
+versionRange = "[1.20.4,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.placeablemaxwell]]
 modId = "architectury"
-type = "required"
-versionRange = "[12.1.4,)"
+mandatory = true
+versionRange = "[11.1.17,)"
 ordering = "AFTER"
 side = "BOTH"
-
-[[mixins]]
-config = "placeablemaxwell.mixins.json"

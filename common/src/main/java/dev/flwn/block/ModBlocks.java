@@ -5,7 +5,6 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import dev.flwn.MaxwellMod;
 import dev.flwn.block.custom.MaxwellBlock;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -33,7 +32,7 @@ public class ModBlocks {
     }
 
     public static RegistrySupplier<Block> registerBlock(String name, Supplier<Block> block) {
-        return BLOCKS.register(new ResourceLocation(MaxwellMod.MOD_ID, name), block);
+        return BLOCKS.register(name, block);
     }
 
     public static BlockBehaviour.Properties baseCatProperties(String name) {
