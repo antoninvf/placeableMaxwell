@@ -4,7 +4,7 @@ A forge mod that adds Maxwell the cat to Minecraft and other cats too.
 
 I made this cause I was bored and didn't know what to make :D
 
-Requires Architectury!
+**Requires [Architectury API](https://modrinth.com/mod/architectury-api)!**
 
 * [Modrinth page](https://modrinth.com/mod/maxwell-the-placeable-cat)
 * [Curseforge page](https://www.curseforge.com/minecraft/mc-mods/maxwell-the-placeable-cat)
