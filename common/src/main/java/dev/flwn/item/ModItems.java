@@ -1,6 +1,7 @@
 package dev.flwn.item;
 
 
+import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import dev.flwn.MaxwellMod;
@@ -10,6 +11,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
 import java.util.function.Supplier;
@@ -38,8 +40,10 @@ public class ModItems {
     }
 
     public static Item.Properties baseCatProperties(String name) {
-        return new Item.Properties()
-                .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name)))
-                .arch$tab(ModTabs.MAXWELL_TAB);
+        var props = new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name)));
+
+        // For some reason in this version, I'm unable to make the Maxwell tab show up.
+        if (Platform.isFabric()) return props.arch$tab(CreativeModeTabs.BUILDING_BLOCKS);
+        else return props.arch$tab(ModTabs.MAXWELL_TAB);
     }
 }

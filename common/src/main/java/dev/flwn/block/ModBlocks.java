@@ -4,6 +4,7 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import dev.flwn.MaxwellMod;
 import dev.flwn.block.custom.MaxwellBlock;
+import net.minecraft.client.renderer.entity.DisplayRenderer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
