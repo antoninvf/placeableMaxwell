@@ -1,5 +1,5 @@
 {
-  "loader": "neoforge:obj",
+  "loader": "forge:obj",
   "flip_v": false,
   "model": "placeablemaxwell:models/block/poomba.obj",
   "textures": {

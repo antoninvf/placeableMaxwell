@@ -35,6 +35,10 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
+
+    // Used for loading OBJ models in Fabric.
+    modApi "dev.felnull:special-model-loader:1.2.0"
+    include "dev.felnull:special-model-loader:1.2.0"
 }
 
 processResources {

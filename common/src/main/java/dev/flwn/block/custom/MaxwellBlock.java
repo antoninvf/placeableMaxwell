@@ -1,6 +1,5 @@
 package dev.flwn.block.custom;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
@@ -20,7 +19,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.BlockHitResult;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Random;
 
@@ -34,7 +32,6 @@ public class MaxwellBlock extends FallingBlock {
 
     @Override
     public InteractionResult use(BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-        world.addParticle(ParticleTypes.HEART, pos.getX() + 0.5, pos.getY() + 1.2, pos.getZ() + 0.5, 0, 0.5, 0);
         if (player.getItemInHand(hand).is(ItemTags.FISHES)) {
             world.addParticle(ParticleTypes.HAPPY_VILLAGER, pos.getX() + 0.5, pos.getY() + 1.2, pos.getZ() + 0.5, 0, 0.5, 0);
             player.getItemInHand(hand).shrink(1); // consume one fish item
@@ -50,11 +47,6 @@ public class MaxwellBlock extends FallingBlock {
         }
 
         return InteractionResult.SUCCESS;
-    }
-
-    @Override
-    protected @NotNull MapCodec<MaxwellBlock> codec() {
-        return MapCodec.unit(this);
     }
 
     @Override

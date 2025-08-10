@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[49,)"
+loaderVersion = "[47,)"
 #issueTrackerURL = ""
 license = "CC BY 4.0"
 
@@ -16,20 +16,20 @@ logoFile = "maxwell.png"
 [[dependencies.placeablemaxwell]]
 modId = "forge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.placeablemaxwell]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.placeablemaxwell]]
 modId = "architectury"
 mandatory = true
-versionRange = "[11.1.17,)"
+versionRange = "[9.2.14,)"
 ordering = "AFTER"
 side = "BOTH"
