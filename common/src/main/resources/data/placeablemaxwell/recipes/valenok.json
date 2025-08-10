@@ -6,8 +6,12 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:white_wool",
-    "G": "minecraft:orange_wool"
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:orange_wool"
+    }
   },
   "result": {
     "id": "placeablemaxwell:valenok",

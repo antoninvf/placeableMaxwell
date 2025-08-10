@@ -6,8 +6,12 @@
     "GGG"
   ],
   "key": {
-    "W": "minecraft:white_wool",
-    "G": "minecraft:gray_wool"
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:gray_wool"
+    }
   },
   "result": {
     "id": "placeablemaxwell:vasilisa",

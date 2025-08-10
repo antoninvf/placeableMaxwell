@@ -33,7 +33,7 @@ public class ModBlocks {
     }
 
     public static RegistrySupplier<Block> registerBlock(String name, Supplier<Block> block) {
-        return BLOCKS.register(ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name), block);
+        return BLOCKS.register(new ResourceLocation(MaxwellMod.MOD_ID, name), block);
     }
 
     public static BlockBehaviour.Properties baseCatProperties(String name) {

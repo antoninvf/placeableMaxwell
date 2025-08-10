@@ -21,14 +21,11 @@
       "dev.flwn.fabric.client.MaxwellModFabricClient"
     ]
   },
-  "mixins": [
-    "placeablemaxwell.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.17.2",
-    "minecraft": "~1.21.1",
+    "minecraft": "~1.20.6",
     "java": ">=21",
-    "architectury": ">=13.0.8",
+    "architectury": ">=12.1.4",
     "fabric-api": "*"
   }
 }

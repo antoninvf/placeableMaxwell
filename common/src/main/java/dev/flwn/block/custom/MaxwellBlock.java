@@ -38,7 +38,7 @@ public class MaxwellBlock extends FallingBlock {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
 
     public static final ResourceKey<DamageType> FALLING_MAXWELL_CAT =
-            ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, "falling_maxwell_cat"));
+            ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation(MaxwellMod.MOD_ID, "falling_maxwell_cat"));
 
     public MaxwellBlock(Properties properties) {
         super(properties);

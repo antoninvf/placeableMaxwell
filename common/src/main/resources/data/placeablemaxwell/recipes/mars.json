@@ -6,9 +6,15 @@
     "GLG"
   ],
   "key": {
-    "W": "minecraft:white_wool",
-    "G": "minecraft:gray_wool",
-    "L": "minecraft:light_gray_wool"
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:gray_wool"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    }
   },
   "result": {
     "id": "placeablemaxwell:mars",

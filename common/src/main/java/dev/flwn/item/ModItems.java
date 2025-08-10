@@ -35,7 +35,7 @@ public class ModItems {
     }
 
     public static RegistrySupplier<Item> registerItem(String name, Supplier<Item> item) {
-        return ITEMS.register(ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name), item);
+        return ITEMS.register(new ResourceLocation(MaxwellMod.MOD_ID, name), item);
     }
 
     public static Item.Properties baseCatProperties(String name) {
