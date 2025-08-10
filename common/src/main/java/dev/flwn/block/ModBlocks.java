@@ -5,7 +5,6 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import dev.flwn.MaxwellMod;
 import dev.flwn.block.custom.MaxwellBlock;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -39,7 +38,6 @@ public class ModBlocks {
 
     public static BlockBehaviour.Properties baseCatProperties(String name) {
         return BlockBehaviour.Properties.of()
-                .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name)))
                 .strength(0.8f)
                 .sound(SoundType.WOOL)
                 .noOcclusion();

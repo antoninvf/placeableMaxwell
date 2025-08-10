@@ -1,11 +1,11 @@
 {
   "category.placeablemaxwell_tab": "Maxwell the placeable cat",
 
-  "item.placeablemaxwell.maxwell": "Maxwell",
-  "item.placeablemaxwell.mars": "Mars",
-  "item.placeablemaxwell.valenok": "Valenok",
-  "item.placeablemaxwell.vasilisa": "Vasilisa",
-  "item.placeablemaxwell.poomba": "Poomba",
+  "block.placeablemaxwell.maxwell": "Maxwell",
+  "block.placeablemaxwell.mars": "Mars",
+  "block.placeablemaxwell.valenok": "Valenok",
+  "block.placeablemaxwell.vasilisa": "Vasilisa",
+  "block.placeablemaxwell.poomba": "Poomba",
   "death.attack.placeablemaxwell.falling_maxwell_cat": "%1$s was squashed by a falling cat",
   "death.attack.placeablemaxwell.falling_maxwell_cat.player": "%1$s was squashed by a falling cat whilst fighting %2$s"
 }
