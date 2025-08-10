@@ -5,11 +5,11 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import dev.flwn.MaxwellMod;
 import dev.flwn.block.ModBlocks;
+import dev.flwn.tabs.ModTabs;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
 import java.util.function.Supplier;
@@ -40,6 +40,6 @@ public class ModItems {
     public static Item.Properties baseCatProperties(String name) {
         return new Item.Properties()
                 .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MaxwellMod.MOD_ID, name)))
-                .arch$tab(CreativeModeTabs.BUILDING_BLOCKS);
+                .arch$tab(ModTabs.MAXWELL_TAB);
     }
 }

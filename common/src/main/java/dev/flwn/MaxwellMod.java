@@ -2,6 +2,7 @@ package dev.flwn;
 
 import dev.flwn.block.ModBlocks;
 import dev.flwn.item.ModItems;
+import dev.flwn.tabs.ModTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public final class MaxwellMod {
 
         ModBlocks.init();
         ModItems.init();
+        ModTabs.init();
     }
 }
