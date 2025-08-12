@@ -3,5 +3,5 @@
     "type": "minecraft:model",
     "model": "placeablemaxwell:block/valenok"
   },
-  "oversized_in_gui": true
+  "oversized_in_gui": false
 }
